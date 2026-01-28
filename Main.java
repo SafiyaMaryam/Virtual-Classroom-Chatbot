@@ -12,7 +12,7 @@ public class Main {
         System.out.println("===============================");
         System.out.println("Ask me questions about Java programming!");
         System.out.println("Type 'help' for commands or 'quit' to exit\n");
-        
+        //Main loop logic
         while (true) {
             System.out.print("You: ");
             String input = scanner.nextLine().trim();
@@ -30,7 +30,7 @@ public class Main {
         
         scanner.close();
     }
-    
+    //showHelp function to display available commands
     public static void showHelp() {
         System.out.println(
             "🤖 Available Commands:\n" +
